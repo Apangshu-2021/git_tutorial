@@ -1,3 +1,4 @@
 p {
   color: red;
 }
+/* -u means to set upstream. If we are gonna work at a project for a long time then we should not write git push origin main everytime instead if we use upstream for one time after that we can use write git push each time */
