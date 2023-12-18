@@ -1,13 +1,13 @@
 # This is my local repo
 
 
-// Creating the charts
+		// Creating the charts
 		// An array of JFreeChart objects is created.
 		// Each chart is created by calling the createChart method with specific parameters.
 		JFreeChart[] charts = new JFreeChart[]{
-				createChart("Top 3 panels for the month of Oct and Nov", panels.get(0).getPanelName(),panels.get(0).getNoOfInterviews(), panels.get(1).getPanelName(), panels.get(1).getNoOfInterviews(), panels.get(2).getPanelName(), panels.get(2).getNoOfInterviews()),
-				createChart("Top 3 skills for the months of Oct and Nov", skills.get(0), Integer.parseInt(freq.get(0)),skills.get(1), Integer.parseInt(freq.get(1)), skills.get(2), Integer.parseInt(freq.get(2))),
-				createChart("Top 3 skills for which interviews were conducted", skills1.get(0), Integer.parseInt(freq1.get(0)),skills1.get(1), Integer.parseInt(freq1.get(1)), skills1.get(2), Integer.parseInt(freq1.get(2)))
+		createChart("Top 3 panels for the month of Oct and Nov", panels.get(0).getPanelName(),panels.get(0).getNoOfInterviews(), panels.get(1).getPanelName(), panels.get(1).getNoOfInterviews(), 			panels.get(2).getPanelName(), panels.get(2).getNoOfInterviews()),
+		createChart("Top 3 skills for the months of Oct and Nov", skills.get(0), Integer.parseInt(freq.get(0)),skills.get(1), Integer.parseInt(freq.get(1)), skills.get(2), Integer.parseInt(freq.get(2))),
+		createChart("Top 3 skills for which interviews were conducted", skills1.get(0), Integer.parseInt(freq1.get(0)),skills1.get(1), Integer.parseInt(freq1.get(1)), skills1.get(2), 					Integer.parseInt(freq1.get(2)))
 		};
 
 		//The code calculates the height available for each chart on the PDF page by dividing the total height of an A4 page by the number of charts.
